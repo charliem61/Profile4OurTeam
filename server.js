@@ -33,3 +33,30 @@ async function managerPrompt() {
   teamMembers.push(tempManager)
 }
 managerPrompt()
+
+
+async function managerPrompt() {
+  const manager = await inquirer.prompt([
+    {
+      type: "input",
+      name: "name",
+      message: "What is the managers name?",
+    },
+    {
+      type: "input",
+      name: "id",
+      message: "what is the managers id?",
+    },
+    {
+      type: "input",
+      name: "email",
+      message: "what is the managers email?"
+    },
+    {
+      type: "input",
+      name: "officeNumber",
+      message: "what is the mangers office number?",
+     //change office number to git hub for engineer
+    }
+
+  ]);
