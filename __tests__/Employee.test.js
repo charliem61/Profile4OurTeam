@@ -35,3 +35,7 @@ test("test the email function", () => {
   const newEmployee = new Employee("name", 1, email);
   expect(newEmployee.getEmail()).toBe(email);
 });
+test("test the getRole function", () => {
+          const newEmployee = new Employee();
+          expect(newEmployee.getRole()).toBe("Employee");
+        });
