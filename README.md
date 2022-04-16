@@ -22,3 +22,5 @@ Challenges Faced:
 Perfecting each function so it completes the card for that Team member whether it be Manager, Engineer, or Intern. One would display but the next would go into error. With the help of my tutor we found the bug and ended up editing each function to solve the bug which in turn allowed us to have the first generated Html of the cards for each employee displayed with their own unique data.  
 
 Demonstration:
+
+https://youtu.be/fielqAxSWe4
